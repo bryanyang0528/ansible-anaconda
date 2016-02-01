@@ -16,3 +16,6 @@ anaconda_pkg_list :
   - scikit-learn
   - ipython
   - jupyter
+  - boto
+  - awscli
+  - seaborn
