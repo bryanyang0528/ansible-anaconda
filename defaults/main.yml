@@ -17,5 +17,6 @@ anaconda_pkg_list :
   - ipython
   - jupyter
   - boto
+  - matplotlib
   - seaborn
   - statsmodels
