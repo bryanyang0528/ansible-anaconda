@@ -27,7 +27,7 @@
     owner=root
     group=root
 
-- name: conda updates
+- name: conda install
   command: /opt/anaconda/bin/conda install -y {{item}}
   with_items: '{{ anaconda_pkg_list  }}'
 
