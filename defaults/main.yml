@@ -19,5 +19,4 @@ anaconda_pkg_list :
   - boto
   - matplotlib
   - seaborn
-  - awscli
   - statsmodels
