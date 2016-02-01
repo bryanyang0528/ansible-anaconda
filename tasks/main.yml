@@ -28,6 +28,10 @@
     group=root
 
 - name: conda updates
+  command: /opt/anaconda/bin/conda install -y {{item}}
+  with_items: '{{ anaconda_pkg_list  }}'
+
+- name: conda updates
   command: /opt/anaconda/bin/conda update -y {{item}}
   with_items: '{{ anaconda_pkg_list }}'
 
